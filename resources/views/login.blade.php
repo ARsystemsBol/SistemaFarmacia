@@ -2,7 +2,7 @@
     </div>
     <div class="contenedor"> 
     <div class="header">
-    <img src="sistema/img/farmacia2_favicon.png" width="200px" height="200px">
+    <img src="{{ asset('img/farmacia2_favicon.png') }}" width="200px" height="200px">
     </div>
     <br>    
     <div class="main">

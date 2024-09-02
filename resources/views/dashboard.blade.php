@@ -10,11 +10,14 @@
         @include('layouts.aside')
        
         <!-- Main Content -->
-        <main class="flex-1 p-6">
+        <main class="flex pt-24 pl-4">
             <h1 class="text-2xl font-semibold mb-4">Administracion General - Dashboard</h1>     
         </main>
+        
     </div>
+   
 @endsection
+
 
 @section('footer')
     @include('layouts.footer')

@@ -9,8 +9,8 @@
 
         <title> SIS FARMA</title>
 
-        <!-- Custom styles for this template-->
-        <link rel="shortcut icon" href="img/farmacia2_favicon.png">
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="{{ asset('farmacia2_favicon.png') }}">
         <!-- Si utilizamos la plantilla sb admin-->
         {{-- <link href="css/sb-admin-2.min.css" rel="stylesheet"> --}}
         
@@ -18,12 +18,14 @@
         <script src="https://kit.fontawesome.com/1ea8486269.js" crossorigin="anonymous"></script>
         {{-- TAILWIND --}}
         <script src="https://cdn.tailwindcss.com"></script>
-
-    </head>
+</head>
     <body id="page-top">      
         @yield('header')
-        @yield('content')
-        @yield('footer')
+        <div class="content">
+            @yield('content')
+        </div>
+        
+        {{-- @yield('footer') --}}
     </body>
 </html>
 
