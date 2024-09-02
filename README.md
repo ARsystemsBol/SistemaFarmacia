@@ -16,7 +16,7 @@
 4.  Vistas ✅
 5.  Componentes ✅
 6.  Plantillas ✅
-6.1 Mejorar las plantillas ❌
+6.1 Mejorar las plantillas ❌✅
 7.  Coneccion Base de datos ❌
 8.  Migraciones ❌
 9.  Eloquent => SQL ❌
