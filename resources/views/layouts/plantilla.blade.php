@@ -10,7 +10,7 @@
         @include('layouts.aside')
        
         <!-- Main Content -->
-        <main class="flex-1 p-6">
+        <main class="flex-1 pt-24 pl-4">
             <h1 class="text-2xl font-semibold mb-4">Plantilla</h1>     
         </main>
     </div>

@@ -19,6 +19,7 @@
 6.1 Mejorar las plantillas ❌✅
 7.  Coneccion Base de datos ✅
 8.  Migraciones ✅
-9.  Eloquent => SQL ❌
+9.  Eloquent => SQL ✅
 10. Mutadores y accesores ❌
-11. 
+11. Casting❌
+12. Seeders ❌
