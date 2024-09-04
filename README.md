@@ -20,6 +20,8 @@
 7.  Coneccion Base de datos ✅
 8.  Migraciones ✅
 9.  Eloquent => SQL ✅
-10. Mutadores y accesores ❌
-11. Casting❌
-12. Seeders ❌
+10. Mutadores y accesores ✅
+11. Casting✅
+12. Seeders ✅
+13. Factorys ✅
+14. CRUD ❌
