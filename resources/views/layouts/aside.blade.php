@@ -1,12 +1,12 @@
 <aside class="w-64 bg-teal-800 text-white flex flex-col mt-20">
 
-	<ul class="sticky top-0 accordion p-4" id="accordionSidebar">		
+	<ul class="p-4" id="accordionSidebar">		
 		<div class="text-gray-300 font-semibold text-sm uppercase tracking-wide pb-1 pl-2">
 			GESTIÓN VENTAS
 		</div>
 		<hr class="border-gray-300 pb-4">
 		<!-- Nav Item - Reportes Collapse Menu -->
-		<li class="nav-item mb-8">
+		<li class="nav-item mb-4">
 			<a class="nav-link flex items-center  text-gray-300 pl-4 " href="#" data-toggle="collapse" data-target="#collapseReport" aria-expanded="true" aria-controls="collapseReport">
 				<i class="fas fa-book text-sky-300 text-xl mr-8"></i>
 				<span class="hover:text-gray-200">Reportes</span>
@@ -33,7 +33,7 @@
 			</div> --}}
 		</li>
 		<!-- Nav Item - Cajas Collapse Menu -->
-		<li class="nav-item mb-8">
+		<li class="nav-item mb-4">
 			<a class="nav-link flex items-center  text-gray-300 pl-4" href="#" data-toggle="collapse" data-target="#collapseReport" aria-expanded="true" aria-controls="collapseReport">
 				<i class="fas fa-cash-register text-yellow-500 text-xl mr-8"></i>
 				<span class=" hover:text-gray-200">Cajas</span>
@@ -51,7 +51,7 @@
 			</div> --}}
 		</li>
 		<!-- Nav Item - Ventas Collapse Menu -->
-		<li class="nav-item mb-8">
+		<li class="nav-item mb-4">
 			<a class="nav-link flex items-center text-gray-300 pl-4" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
 				<i class="fas fa-comment-dollar text-orange-500 text-xl mr-8"></i>
 				<span>Ventas</span>
@@ -69,7 +69,7 @@
 		</div>
 		<hr class="border-gray-300 pb-4">
 		<!-- Nav Item - Lotes Collapse Menu -->
-		<li class="nav-item mb-8">
+		<li class="nav-item mb-4">
 			<a class="nav-link flex items-center text-gray-300 pl-4" href="#" data-toggle="collapse" data-target="#collapseLotes" aria-expanded="true" aria-controls="collapseLotes">
 				<i class="fas fa-boxes text-yellow-800 text-xl mr-8 "></i>
 				<span>Lotes</span>
@@ -84,7 +84,7 @@
 		</li>
 
 		<!-- Nav Item - Stock Collapse Menu -->
-		<li class="nav-item mb-8">
+		<li class="nav-item mb-4">
 			<a class="nav-link flex items-center text-gray-300 pl-4" href="#" data-toggle="collapse" data-target="#collapseStock" aria-expanded="true" aria-controls="collapseStock">
 				<i class="fas fa-clipboard-list text-blue-500 text-xl mr-8"></i>
 				<span>Stock</span>
@@ -98,7 +98,7 @@
 		</li>
 
 		<!-- Nav Item - Traspasos Collapse Menu -->
-		<li class="nav-item mb-8">
+		<li class="nav-item mb-4">
 			<a class="nav-link flex items-center text-gray-300 pl-4" href="#" data-toggle="collapse" data-target="#collapseTransferencias" aria-expanded="true" aria-controls="collapseTransferencias">
 				<i class="fas fa-sync-alt text-sky-300 text-xl mr-8"></i>
 				<span>Traspasos</span>
@@ -113,7 +113,7 @@
 			</div> --}}
 		</li>
 		<!-- Nav Item - Medicamentos Collapse Menu -->
-		<li class="nav-item mb-8">
+		<li class="nav-item mb-4">
 			<a class="nav-link flex items-center text-gray-300 pl-4" href="#" data-toggle="collapse" data-target="#collapseUtilities" aria-expanded="true" aria-controls="collapseUtilities">
 				<i class="fas fa-capsules text-yellow-500 text-xl mr-8" style="font-size: 1.2rem;"></i>				
 				<span>Medicamentos</span>
@@ -135,7 +135,7 @@
 		</div>
 		<hr class="border-gray-300 pb-4">
 		<!-- Nav Item - Clientes Collapse Menu -->
-		<li class="nav-item mb-8">
+		<li class="nav-item mb-4">
 			<a class="nav-link flex items-center text-gray-300 pl-4" href="#" data-toggle="collapse" data-target="#collapseClientes" aria-expanded="true" aria-controls="collapseUtilities">
 				<i class="fas fa-users text-orange-500 mr-8"></i>
 				<span>Clientes</span>
@@ -151,7 +151,7 @@
 
 		<!-- Nav Item - Proveedores Collapse Menu -->
 		
-			<li class="nav-item mb-8">
+			<li class="nav-item mb-4">
 				<a class="nav-link flex items-center text-gray-300 pl-4" href="#" data-toggle="collapse" data-target="#collapseProveedor" aria-expanded="true" aria-controls="collapseUtilities">
 					<i class="fas fa-building text-sky-300 mr-8"></i>
 					<span>Proveedor</span>
@@ -168,7 +168,7 @@
 
 		<!-- Nav Item - Sucursales/Almacenes Collapse Menu -->
 		
-			<li class="nav-item mb-8">
+			<li class="nav-item mb-4">
 				<a class="nav-link flex items-center text-gray-300 pl-4" href="#" data-toggle="collapse" data-target="#collapseSucursal" aria-expanded="true" aria-controls="collapseUtilities">
 				<i class="fas fa-store text-emerald-400 mr-8"></i>
 				<span>Sucursales</span>
@@ -186,7 +186,7 @@
 			<!-- Nav Item - Asignacion de Cajas Collapse Menu -->
 		
 				<!-- Nav Item - Soporte Menu -->
-				<li class="nav-item mb-8">
+				<li class="nav-item mb-4">
 					<a class="nav-link flex items-center text-gray-300 pl-4" href="registro_caja.php">
 					<i class="fas fa-cash-register text-yellow-300 mr-8"></i>
 					<span>Asignacion Cajas</span>
@@ -197,7 +197,7 @@
 		<!-- Nav Item - Usuarios Collapse Menu -->
 		
 			<!-- Nav Item - Usuarios Collapse Menu -->
-			<li class="nav-item mb-8">
+			<li class="nav-item mb-4">
 				<a class="nav-link flex items-center text-gray-300 pl-4" href="#" data-toggle="collapse" data-target="#collapseUsuarios" aria-expanded="true" aria-controls="collapseUtilities">
 					<i class="fas fa-user-nurse text-red-400 mr-8 "></i>
 					<span>Usuarios</span>
@@ -249,4 +249,5 @@
 					</a>		
 				</li>
 	</ul>
+	
 </aside>

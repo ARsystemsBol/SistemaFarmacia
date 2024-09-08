@@ -31,3 +31,8 @@
 <div {{ $attributes -> merge(['class' => 'p-4 text-sm rounded-lg ' . $class ]) }} role="alert">
     <span class="font-medium">{{ $title ?? 'Info Alert!'}}</span> {{ $slot }}    
 </div>
+
+ {{-- <x-alert type="danger" class="mb-4"> 
+        <x-slot name="title"> ERORR DE REGISTRO </x-slot> 
+            El proveedor fué registrado correctamente
+       </x-alert> --}}
