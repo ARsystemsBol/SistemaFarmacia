@@ -12,7 +12,7 @@ class ProveedorController extends Controller
     public function index()
     {   
         $proveedores = Proveedor::orderby('id', 'asc')           
-                    ->paginate(5);                     
+                    ->paginate(10);                     
         return view('proveedores.index', compact('proveedores'));
     }
 

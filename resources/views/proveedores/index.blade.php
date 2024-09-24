@@ -10,13 +10,18 @@
         @include('layouts.aside') <!-- Sidebar con w-64 -->
 
         <!-- Main Content -->
-        <div class="flex flex-col flex-grow">
-            <!-- Parte superior -->
-            <main class="flex-grow pt-24 pl-8 pr-12">         
-                <h1 class="text-2xl font-bold mb-4">Proveedores</h1>                
-                <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
-                    <table class="w-full text-sm text-left rtl:text-right text-blue-100 dark:text-blue-100 ">
-                        <thead class="text-xs text-white uppercase bg-gray-600 dark:text-white">
+        <div class="flex flex-col flex-grow  pt-24 pl-8 pr-12">
+            <!-- Parte superior -->          
+            <main class="flex-grow">  
+                <div class="border border-gray-300 rounded-sm shadow-md">
+                    <div class="bg-sky-900 px-8 py-3 border-b border-gray-300 flex justify-between items-center">
+                        <h1 class="text-xl text-white ">LISTA DE PROVEEDORES</h1> 
+                        <a href="proveedor/create" class="bg-emerald-700 text-white px-4 py-2 rounded hover:bg-emerald-600">Nuevo</a>
+                    </div>
+                    
+                <div class="relative overflow-x-auto p-4">
+                    <table class="w-full text-sm text-left rtl:text-right text-blue-100 dark:text-blue-100 rounded-lg ">
+                        <thead class="text-xs text-white uppercase bg-gray-600 dark:text-white border border-gray-600">
                             <tr>
                                 <th scope="col" class="px-6 py-3">ID</th>
                                 <th scope="col" class="px-6 py-3">LABORATORIO</th>
@@ -51,9 +56,14 @@
                     </table>
                     
                 </div>
-                <div class="pt-4">
+                <div class="p-4">
                     {{ $proveedores->links() }}
                 </div>  
+                
+              
+              
+
+
             </main>
             
             <!-- Parte inferior -->
